@@ -14,7 +14,8 @@ def average_student_gpa
 end
 
 def total_tardies_for_all_students
-  "SELECT SUM(gpa) as highest_gpa FROM students;"
+  "SELECT SUM(tardies) AS total_tardies FROM students;"
+  
 end
 
 def average_gpa_for_9th_grade
